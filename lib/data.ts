@@ -64,13 +64,15 @@ export const experiencesData = [
 export const projectsData = [
   {
     title: 'Jobify',
-    description: 'description for jobiify',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
     tags: ['MongoDB', 'Express', 'React', 'Node.js'],
     imageUrl: jobifyImg,
   },
   {
     title: 'YouTube Clone',
-    description: 'description for YouTube clone',
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
     tags: ['React'],
     imageUrl: youtubecloneImg,
   },
