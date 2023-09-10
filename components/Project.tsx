@@ -32,7 +32,7 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
         dark:hover:bg-white/20 dark:text-white/70"
       >
         <div
-          className="pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 
+          className="pt-4 pb-7 px-4 sm:pl-10 sm:pr-2 sm:pt-10 
         sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
         >
           <h3 className="text-2xl font-semibold">{title}</h3>
