@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import { ActiveSectionContextProvider } from '@/context/active-section-context'
 import { Toaster } from 'react-hot-toast'
 import Footer from '@/components/Footer'
+import ThemeSwitch from '@/components/ThemeSwitch'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -36,6 +37,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <Footer />
           <Toaster position="top-right" />
         </ActiveSectionContextProvider>
+
+        <ThemeSwitch />
       </body>
     </html>
   )
