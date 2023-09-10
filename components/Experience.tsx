@@ -10,9 +10,11 @@ import 'react-vertical-timeline-component/style.min.css'
 import React from 'react'
 import { motion } from 'framer-motion'
 import { useSectionInView } from '@/lib/hooks'
+import { useTheme } from '@/context/theme-context'
 
 const Experience = () => {
   const { ref } = useSectionInView('Experience')
+  const { theme } = useTheme()
 
   return (
     <motion.section
@@ -31,25 +33,30 @@ const Experience = () => {
           <React.Fragment key={index}>
             <VerticalTimelineElement
               contentStyle={{
-                background: '#f3f4f66',
+                background:
+                  theme === 'light' ? '#f3f4f66' : 'rgba(255, 255,255,0.05)',
                 boxShadow: 'none',
-                border: 'solid rgba(0,0,0, 0.06)',
+                border: 'solid rgba(0,0,0, 0.05)',
                 textAlign: 'left',
                 padding: '1.3rem 2rem',
               }}
               contentArrowStyle={{
-                borderRight: '0.5rem solid #9ca3af',
+                borderRight:
+                  theme === 'light'
+                    ? '0.5rem solid #9ca3af'
+                    : '0.5rem solid rgba(255, 255,255,0.5)',
               }}
               icon={item.icon}
               iconStyle={{
-                background: 'white',
+                background:
+                  theme === 'light' ? 'white' : 'rgba(255, 255,255,0.15)',
                 fontSize: '1rem',
               }}
               date={item.date}
             >
               <h3 className="font-semibold capitalize">{item.title}</h3>
               <p className="font-normal !mt-0">{item.location}</p>
-              <p className="!mt-1 !font-normal text-gray-700">
+              <p className="!mt-1 !font-normal text-gray-700 dark:text-white/75">
                 {item.description}
               </p>
             </VerticalTimelineElement>
