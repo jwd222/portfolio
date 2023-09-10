@@ -27,7 +27,7 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
     >
       <section
         className="bg-gray-100 max-w-[42rem] border border-black/5
-        overflow-hidden sm:pr-8 relative sm:h-[20 rem] transition
+        overflow-hidden sm:pr-8 relative sm:h-[23rem] transition
         hover:bg-gray-200 sm:group-even:pl-8 rounded-lg dark:bg-white/10
         dark:hover:bg-white/20 dark:text-white/70"
       >
@@ -55,7 +55,7 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
           </ul>
         </div>
         <Image
-          className="absolute top-8 -right-40 w-[28.25rem]
+          className="absolute top-10 -right-40 w-[28.25rem]
         rounded-lg shadow-2xl hidden sm:block
         transition
         group-hover:scale-110
