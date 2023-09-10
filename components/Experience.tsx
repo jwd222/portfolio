@@ -8,10 +8,19 @@ import {
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import React from 'react'
+import { motion } from 'framer-motion'
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <motion.section
+      id="experience"
+      className="scroll-mt-28 mb-28 sm:mb-40"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        delay: 0.175,
+      }}
+    >
       <SectionHeading>My experience</SectionHeading>
       <VerticalTimeline lineColor="">
         {experiencesData.map((item, index) => (
@@ -43,7 +52,7 @@ const Experience = () => {
           </React.Fragment>
         ))}
       </VerticalTimeline>
-    </section>
+    </motion.section>
   )
 }
 export default Experience

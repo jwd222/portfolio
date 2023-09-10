@@ -15,7 +15,7 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
     <html lang="en" className="!scroll-smooth">
       <body
         className={`${inter.className} bg-gray-100
-        text-gray-950 relative h-[5000px] pt-28 sm:pt-36`}
+        text-gray-950 relative pt-28 sm:pt-36`}
       >
         <div
           className="bg-[#fbe2e3] absolute top-[-6rem] -z-10
