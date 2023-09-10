@@ -28,12 +28,12 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
       <section
         className="bg-gray-100 max-w-[42rem] border border-black/5
         overflow-hidden sm:pr-8 relative sm:h-[20 rem] transition
-        hover:bg-gray-200 group-even:pl-8 rounded-lg dark:bg-white/10
+        hover:bg-gray-200 sm:group-even:pl-8 rounded-lg dark:bg-white/10
         dark:hover:bg-white/20 dark:text-white/70"
       >
         <div
           className="pt-4 pb-7 sm:pl-10 sm:pr-2 sm:pt-10 
-        sm:max-w-[50%] flex flex-col h-full group-even:ml-[18rem]"
+        sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]"
         >
           <h3 className="text-2xl font-semibold">{title}</h3>
           <p
@@ -56,7 +56,7 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
         </div>
         <Image
           className="absolute top-8 -right-40 w-[28.25rem]
-        rounded-lg shadow-2xl 
+        rounded-lg shadow-2xl hidden sm:block
         transition
         group-hover:scale-110
         group-even:right-[initial] 
