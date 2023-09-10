@@ -21,10 +21,16 @@ const Skills = () => {
   }
 
   return (
-    <section
+    <motion.section
       ref={ref}
       className="mb-28 max-w-[53rem] scroll-mt-28 text-center 
       sm:mb-4"
+      initial={{ opacity: 0, y: 100 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{
+        delay: 0.175,
+      }}
+      id="skills"
     >
       <SectionHeading>My skills</SectionHeading>
       <ul
@@ -48,7 +54,7 @@ const Skills = () => {
           </motion.li>
         ))}
       </ul>
-    </section>
+    </motion.section>
   )
 }
 export default Skills
