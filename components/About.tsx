@@ -21,30 +21,38 @@ const About = () => {
     >
       <SectionHeading>About Me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{' '}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{' '}
-        <span className="font-medium">full-stack web development</span>.{' '}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{' '}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{' '}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium">I'm a Frontend enthusiast</span>{' '}
+        specializing in <span className="font-semibold">React and Next.js</span>
+        . I'm 24 and I recently <span className="italic">graduated</span>. I
+        excel in developing{' '}
+        <span className="italic">dynamic web experiences</span>. With{' '}
+        <span className="font-semibold">Next.js</span>, I bring powerful
+        features like server-side rendering, routing, and automatic code
+        splitting to the forefront of your projects. Also delving into Full
+        Stack with{' '}
+        <span className="font-medium">MERN, Apollo, GraphQL, and Prisma</span>.
+        Adept problem solver, thanks to{' '}
+        <span className="italic">Data Structures and Algorithms</span>. Pro at
+        teamwork, refined through research collaborations. Drove contributions
+        on a diverse team during an internship at Battery Low Interactive Ltd,
+        enhancing teamwork and adaptability in game development.
       </p>
 
       <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{' '}
+        video games, watching movies and spending time with my family and
+        friends. I also love playing football, it has been a big part of my life
+        in my teenage years. I enjoy{' '}
         <span className="font-medium">learning new things</span>. I am currently
         learning about{' '}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+        <span className="font-medium">islamic history and philosophy</span>. I
+        used to love working out and am getting back into it as well.
+      </p>
+
+      <p className="mt-4">
+        Always looking forward to new opportunities to{' '}
+        <span className="italic">learn and grow</span>. Let's collaborate and
+        bring your next project to life!
       </p>
     </motion.section>
   )

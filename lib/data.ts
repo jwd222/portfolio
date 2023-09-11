@@ -37,28 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated bootcamp',
-    location: 'Miami, FL',
+    title: 'Game Dev Intern',
+    location: 'Dhaka, Bangladesh',
     description:
-      'I graduated after 6 months of studying. I immediately found a job as a front-end developer.',
+      'I interned for Battery Low Interactive Ltd. in game development. As a final assessment my team and I submitted a complete game developed with unity 2D game engine.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Nov 2021 - Dec 2021',
+  },
+  {
+    title: 'Graduated from Islamic University of Technology',
+    location: 'Gazipur, Dhaka, Bangladesh',
+    description:
+      'I graduated after 4 years of studying for the undergraduate program of Computer Science and Engineering.',
     icon: React.createElement(LuGraduationCap),
-    date: '2019',
+    date: 'Jan 2019 - May 2023',
   },
   {
     title: 'Front-End Developer',
-    location: 'Orlando, FL',
+    location: 'Dhaka, Bangladesh',
     description:
-      'I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.',
-    icon: React.createElement(CgWorkAlt),
-    date: '2019 - 2021',
-  },
-  {
-    title: 'Full-Stack Developer',
-    location: 'Houston, TX',
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm working as a self-employed front-end developer for the last few months. I also upskilled to the full stack.",
     icon: React.createElement(FaReact),
-    date: '2021 - present',
+    date: 'Jun 2023 - Sep 2023',
   },
 ] as const
 
@@ -74,7 +74,7 @@ export const projectsData = [
   {
     title: 'Jobify',
     description:
-      'A full stack job managing application built with JavaScript and MERN stack.',
+      'Full-stack job management app with JavaScript and MERN stack built from scratch. Robust authentication and efficient error handling. Add, edit, delete jobs with rich properties for easy filtering and search.',
     tags: ['MongoDB', 'Express', 'React', 'Node.js'],
     imageUrl: jobifyImg,
     url: 'https://mern-jobify-ldda.onrender.com/landing',
@@ -83,21 +83,23 @@ export const projectsData = [
     title: 'Color Picker',
     description:
       "A web-based color picker tool that offers a selection of 10 different shades for any chosen color. You can explore these shades through various means, including using a color palette, entering the color's name, or inputting its hexadecimal code.",
-    tags: ['React', 'Javascript', 'Material UI'],
+    tags: ['React', 'Javascript'],
     imageUrl: colorpickerImg,
     url: 'https://color-picker-opal-eight.vercel.app/',
   },
   {
-    title: 'GhuraGhuri',
-    description: 'A clone of the popular video streaming website YouTube.',
-    tags: ['React', 'Javascript', 'Material UI'],
+    title: 'GhuraGhuri(Frontend)',
+    description:
+      'A travel companion app featuring user authentication, Google Maps integration, and interactive features. Users can add custom places and markers with notes for sharing and interaction. Additionally, the app allows users to post reviews for visited places.',
+    tags: ['React', 'Javascript'],
     imageUrl: ghuraghuriImg,
     url: 'https://spiffy-dolphin-b52710.netlify.app/',
   },
   {
     title: 'To-do',
-    description: 'A clone of the popular video streaming website YouTube.',
-    tags: ['React', 'Javascript', 'Material UI'],
+    description:
+      "A simple and lightweight to-do list application. Add and delete tasks with ease. Your data is saved using local storage for convenience. It's a hassle-free way to manage your tasks and get things done.",
+    tags: ['React', 'Javascript'],
     imageUrl: todoImg,
     url: 'https://to-do-alpha-jet.vercel.app/',
   },
