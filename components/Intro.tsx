@@ -106,7 +106,7 @@ const Intro = () => {
         focus:scale-110 hover:scale-110
         active:scale-105 transition cursor-pointer border 
         border-black/10 dark:bg-white/10"
-          href="/Shah-Jawad-Islam-CV-FS.pdf"
+          href="/Shah-Jawad-Islam-CV.pdf"
           download
         >
           Download CV{' '}
