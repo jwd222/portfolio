@@ -6,7 +6,8 @@ import colorpickerImg from '@/public/color-picker.png'
 import ghuraghuriImg from '@/public/ghuraghuri.png'
 import jobifyImg from '@/public/jobify.png'
 import youtubecloneImg from '@/public/youtube-clone.png'
-import todoImg from '@/public/todo.png'
+// import todoImg from '@/public/todo.png'
+import todo2Img from '@/public/todo-2.png'
 import portfolioImg from '@/public/potfolio.png'
 
 export const links = [
@@ -111,7 +112,7 @@ export const projectsData = [
     description:
       "A simple and lightweight to-do list application. Add and delete tasks with ease. Your data is saved using local storage for convenience. It's a hassle-free way to manage your tasks and get things done.",
     tags: ['React', 'Javascript'],
-    imageUrl: todoImg,
+    imageUrl: todo2Img,
     url: 'https://to-do-alpha-jet.vercel.app/',
   },
 ] as const
