@@ -6,6 +6,7 @@ import colorpickerImg from '@/public/color-picker.png'
 import ghuraghuriImg from '@/public/ghuraghuri.png'
 import jobifyImg from '@/public/jobify.png'
 import youtubecloneImg from '@/public/youtube-clone.png'
+import todoImg from '@/public/todo.png'
 
 export const links = [
   {
@@ -63,39 +64,64 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: 'Jobify',
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-    tags: ['MongoDB', 'Express', 'React', 'Node.js'],
-    imageUrl: jobifyImg,
-  },
-  {
     title: 'YouTube Clone',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown",
-    tags: ['React'],
+      'A YouTube clone, integrated with the powerful YouTube v3 API from RapidAPI, featuring a robust search functionality. Users can explore channels, view video content, and access information such as view counts and likes.',
+    tags: ['React', 'Javascript', 'Material UI'],
     imageUrl: youtubecloneImg,
+    url: 'https://youtube-clone-theta-three.vercel.app/',
+  },
+  {
+    title: 'Jobify',
+    description:
+      'A full stack job managing application built with JavaScript and MERN stack.',
+    tags: ['MongoDB', 'Express', 'React', 'Node.js'],
+    imageUrl: jobifyImg,
+    url: 'https://mern-jobify-ldda.onrender.com/landing',
+  },
+  {
+    title: 'Color Picker',
+    description:
+      "A web-based color picker tool that offers a selection of 10 different shades for any chosen color. You can explore these shades through various means, including using a color palette, entering the color's name, or inputting its hexadecimal code.",
+    tags: ['React', 'Javascript', 'Material UI'],
+    imageUrl: colorpickerImg,
+    url: 'https://color-picker-opal-eight.vercel.app/',
+  },
+  {
+    title: 'GhuraGhuri',
+    description: 'A clone of the popular video streaming website YouTube.',
+    tags: ['React', 'Javascript', 'Material UI'],
+    imageUrl: ghuraghuriImg,
+    url: 'https://spiffy-dolphin-b52710.netlify.app/',
+  },
+  {
+    title: 'To-do',
+    description: 'A clone of the popular video streaming website YouTube.',
+    tags: ['React', 'Javascript', 'Material UI'],
+    imageUrl: todoImg,
+    url: 'https://to-do-alpha-jet.vercel.app/',
   },
 ] as const
 
 export const skillsData = [
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Next.js',
-  'Node.js',
-  'Git',
-  'Tailwind',
-  'Prisma',
   'MongoDB',
-  'Redux',
+  'Express',
+  'React',
+  'Node.js',
+  'Next.js',
+  'Git',
+  'Java',
+  'Problem Solving',
+  'HTML',
+  'CSS',
+  'SQL',
+  'Tailwind',
+  'Material UI',
   'GraphQL',
   'Apollo',
-  'Express',
+  'Prisma',
   'PostgreSQL',
-  'Python',
-  'Django',
   'Framer Motion',
 ] as const
