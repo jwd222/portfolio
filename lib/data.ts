@@ -39,10 +39,10 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Graduated from Islamic University of Technology',
+    title: 'Graduated ',
     location: 'Gazipur, Dhaka, Bangladesh',
     description:
-      'I graduated after 4 years of studying for the undergraduate program of Computer Science and Engineering.',
+      'I graduated from Islamic University of Technology after 4 years of undergraduate studies in the department of Computer Science and Engineering.',
     icon: React.createElement(LuGraduationCap),
     date: 'Jan 2019 - May 2023',
   },
