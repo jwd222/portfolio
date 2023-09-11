@@ -74,7 +74,6 @@ const Project = ({ title, description, tags, imageUrl, url }: ProjectProps) => {
             src={imageUrl}
             alt={title}
             quality={95}
-            // onClick={() => console.log('clicked')}
           />
         </Link>
       </section>

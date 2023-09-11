@@ -7,6 +7,7 @@ import ghuraghuriImg from '@/public/ghuraghuri.png'
 import jobifyImg from '@/public/jobify.png'
 import youtubecloneImg from '@/public/youtube-clone.png'
 import todoImg from '@/public/todo.png'
+import portfolioImg from '@/public/potfolio.png'
 
 export const links = [
   {
@@ -64,28 +65,29 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: 'Jobify',
+    description:
+      'Full-stack job management app with JavaScript and MERN stack built from scratch. Robust authentication and efficient error handling. Add, edit, delete jobs with rich properties for easy filtering and search.',
+    tags: ['MongoDB', 'Express', 'React', 'Node.js', 'REST'],
+    imageUrl: jobifyImg,
+    url: 'https://mern-jobify-ldda.onrender.com/landing',
+  },
+  {
+    title: 'Portfolio Website',
+    description:
+      'A responsive, pixel-perfect portfolio crafted from scratch. Powered by Next.js 13, TypeScript, and Tailwind CSS, it showcases personalized content with captivating design animations.',
+    tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
+    imageUrl: portfolioImg,
+    url: 'https://shah-jawad-islam-portfolio.vercel.app/',
+  },
+
+  {
     title: 'YouTube Clone',
     description:
       'A YouTube clone, integrated with the powerful YouTube v3 API from RapidAPI, featuring a robust search functionality. Users can explore channels, view video content, and access information such as view counts and likes.',
     tags: ['React', 'Javascript', 'Material UI'],
     imageUrl: youtubecloneImg,
     url: 'https://youtube-clone-theta-three.vercel.app/',
-  },
-  {
-    title: 'Jobify',
-    description:
-      'Full-stack job management app with JavaScript and MERN stack built from scratch. Robust authentication and efficient error handling. Add, edit, delete jobs with rich properties for easy filtering and search.',
-    tags: ['MongoDB', 'Express', 'React', 'Node.js'],
-    imageUrl: jobifyImg,
-    url: 'https://mern-jobify-ldda.onrender.com/landing',
-  },
-  {
-    title: 'Color Picker',
-    description:
-      "A web-based color picker tool that offers a selection of 10 different shades for any chosen color. You can explore these shades through various means, including using a color palette, entering the color's name, or inputting its hexadecimal code.",
-    tags: ['React', 'Javascript'],
-    imageUrl: colorpickerImg,
-    url: 'https://color-picker-opal-eight.vercel.app/',
   },
   {
     title: 'GhuraGhuri(Frontend)',
@@ -95,6 +97,15 @@ export const projectsData = [
     imageUrl: ghuraghuriImg,
     url: 'https://spiffy-dolphin-b52710.netlify.app/',
   },
+  {
+    title: 'Color Picker',
+    description:
+      "A web-based color picker tool that offers a selection of 10 different shades for any chosen color. You can explore these shades through various means, including using a color palette, entering the color's name, or inputting its hexadecimal code.",
+    tags: ['React', 'Javascript'],
+    imageUrl: colorpickerImg,
+    url: 'https://color-picker-opal-eight.vercel.app/',
+  },
+
   {
     title: 'To-do',
     description:
