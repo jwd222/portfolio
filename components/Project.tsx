@@ -4,10 +4,11 @@ import { useRef } from 'react'
 import { projectsData } from '@/lib/data'
 import { useScroll, motion, useTransform } from 'framer-motion'
 import Image from 'next/image'
+import Link from 'next/link'
 
 type ProjectProps = (typeof projectsData)[number]
 
-const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
+const Project = ({ title, description, tags, imageUrl, url }: ProjectProps) => {
   const ref = useRef<HTMLDivElement>(null)
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -54,25 +55,28 @@ const Project = ({ title, description, tags, imageUrl }: ProjectProps) => {
             ))}
           </ul>
         </div>
-        <Image
-          className="absolute top-10 -right-40 w-[28.25rem]
-        rounded-lg shadow-2xl hidden sm:block
-        transition
-        group-hover:scale-110
-        group-even:right-[initial] 
-        group-even:-left-40 
-        
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
-        
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2"
-          src={imageUrl}
-          alt={title}
-          quality={95}
-        />
+        <Link href={url} target="_blank">
+          <Image
+            className="absolute top-10 -right-40 w-[28.25rem]
+          rounded-lg shadow-2xl hidden sm:block
+          transition
+          group-hover:scale-110
+          group-even:right-[initial] 
+          group-even:-left-40 
+          
+          group-hover:-translate-x-3
+          group-hover:translate-y-3
+          group-hover:-rotate-2
+          
+          group-even:group-hover:translate-x-3
+          group-even:group-hover:translate-y-3
+          group-even:group-hover:rotate-2"
+            src={imageUrl}
+            alt={title}
+            quality={95}
+            // onClick={() => console.log('clicked')}
+          />
+        </Link>
       </section>
     </motion.div>
   )
