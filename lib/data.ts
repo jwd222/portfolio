@@ -39,20 +39,20 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: 'Game Dev Intern',
-    location: 'Dhaka, Bangladesh',
-    description:
-      'I interned for Battery Low Interactive Ltd. in game development. As a final assessment my team and I submitted a complete game developed with unity 2D game engine.',
-    icon: React.createElement(CgWorkAlt),
-    date: 'Nov 2021 - Dec 2021',
-  },
-  {
     title: 'Graduated from Islamic University of Technology',
     location: 'Gazipur, Dhaka, Bangladesh',
     description:
       'I graduated after 4 years of studying for the undergraduate program of Computer Science and Engineering.',
     icon: React.createElement(LuGraduationCap),
     date: 'Jan 2019 - May 2023',
+  },
+  {
+    title: 'Game Dev Intern',
+    location: 'Dhaka, Bangladesh',
+    description:
+      'I interned for Battery Low Interactive Ltd. in game development. As a final assessment my team and I submitted a complete game developed with unity 2D game engine.',
+    icon: React.createElement(CgWorkAlt),
+    date: 'Nov 2021 - Dec 2021',
   },
   {
     title: 'Front-End Developer',
