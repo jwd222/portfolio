@@ -28,7 +28,7 @@ const Project = ({ title, description, tags, imageUrl, url }: ProjectProps) => {
     >
       <section
         className="bg-gray-100 max-w-[42rem] border border-black/5
-        overflow-hidden sm:pr-8 relative sm:h-[23rem] transition
+        overflow-hidden sm:pr-8 relative sm:h-[23rem] xs:h-[35rem] transition
         hover:bg-gray-200 sm:group-even:pl-8 rounded-lg dark:bg-white/10
         dark:hover:bg-white/20 dark:text-white/70"
       >
@@ -57,20 +57,25 @@ const Project = ({ title, description, tags, imageUrl, url }: ProjectProps) => {
         </div>
         <Link href={url} target="_blank">
           <Image
-            className="absolute top-10 -right-40 w-[28.25rem]
-          rounded-lg shadow-2xl hidden sm:block
-          transition
-          group-hover:scale-110
-          group-even:right-[initial] 
-          group-even:-left-40 
+            className="absolute transition 
+            sm:top-10 sm:-right-40 sm:w-[28.25rem] 
+            xs:bottom-[0.1rem] xs:p-3
+            sm:rounded-lg xs:rounded-[1.3rem]
+          sm:shadow-2xl sm:block
           
-          group-hover:-translate-x-3
-          group-hover:translate-y-3
-          group-hover:-rotate-2
+          xs:group-hover:-translate-y-2
+
+          sm:group-hover:scale-110
+          sm:group-even:right-[initial] 
+          sm:group-even:-left-40 
           
-          group-even:group-hover:translate-x-3
-          group-even:group-hover:translate-y-3
-          group-even:group-hover:rotate-2"
+          sm:group-hover:-translate-x-3
+          sm:group-hover:translate-y-3
+          sm:group-hover:-rotate-2
+          
+          sm:group-even:group-hover:translate-x-3
+          sm:group-even:group-hover:translate-y-3
+          sm:group-even:group-hover:rotate-2"
             src={imageUrl}
             alt={title}
             quality={95}
