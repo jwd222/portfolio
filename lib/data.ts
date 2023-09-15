@@ -82,6 +82,14 @@ export const projectsData = [
   //   url: 'https://shah-jawad-islam-portfolio.vercel.app/',
   // },
   {
+    title: 'To-do',
+    description:
+      "A simple and lightweight to-do list application. Add and delete tasks with ease. Your data is saved using local storage for convenience. It's a hassle-free way to manage your tasks and get things done.",
+    tags: ['React', 'Javascript'],
+    imageUrl: todo2Img,
+    url: 'https://to-do-alpha-jet.vercel.app/',
+  },
+  {
     title: 'YouTube Clone',
     description:
       'A YouTube clone, integrated with the powerful YouTube v3 API from RapidAPI, featuring a robust search functionality. Users can explore channels, view video content, and access information such as view counts and likes.',
@@ -104,15 +112,6 @@ export const projectsData = [
     tags: ['React', 'Javascript'],
     imageUrl: colorpickerImg,
     url: 'https://color-picker-opal-eight.vercel.app/',
-  },
-
-  {
-    title: 'To-do',
-    description:
-      "A simple and lightweight to-do list application. Add and delete tasks with ease. Your data is saved using local storage for convenience. It's a hassle-free way to manage your tasks and get things done.",
-    tags: ['React', 'Javascript'],
-    imageUrl: todo2Img,
-    url: 'https://to-do-alpha-jet.vercel.app/',
   },
 ] as const
 
