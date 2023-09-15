@@ -73,15 +73,14 @@ export const projectsData = [
     imageUrl: jobifyImg,
     url: 'https://mern-jobify-ldda.onrender.com/landing',
   },
-  {
-    title: 'Portfolio Website',
-    description:
-      'A responsive, pixel-perfect portfolio crafted from scratch. Powered by Next.js 13, TypeScript, and Tailwind CSS, it showcases personalized content with captivating design animations.',
-    tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
-    imageUrl: portfolioImg,
-    url: 'https://shah-jawad-islam-portfolio.vercel.app/',
-  },
-
+  // {
+  //   title: 'Portfolio Website',
+  //   description:
+  //     'A responsive, pixel-perfect portfolio crafted from scratch. Powered by Next.js 13, TypeScript, and Tailwind CSS, it showcases personalized content with captivating design animations.',
+  //   tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'Framer Motion'],
+  //   imageUrl: portfolioImg,
+  //   url: 'https://shah-jawad-islam-portfolio.vercel.app/',
+  // },
   {
     title: 'YouTube Clone',
     description:
