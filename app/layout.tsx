@@ -1,3 +1,5 @@
+import { Analytics } from '@vercel/analytics/react'
+
 import Header from '@/components/Header'
 import './globals.css'
 import { Inter } from 'next/font/google'
@@ -37,8 +39,8 @@ const RootLayout = ({ children }: { children: React.ReactNode }) => {
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Analytics />
             <Footer />
-
             <Toaster position="top-right" />
             <ThemeSwitch />
           </ActiveSectionContextProvider>
