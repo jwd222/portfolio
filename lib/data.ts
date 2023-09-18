@@ -6,6 +6,7 @@ import colorpickerImg from '@/public/color-picker.png'
 import ghuraghuriImg from '@/public/ghuraghuri.png'
 import jobifyImg from '@/public/jobify.png'
 import youtubecloneImg from '@/public/youtube-clone.png'
+import dashboardImg from '@/public/dashboard.png'
 // import todoImg from '@/public/todo.png'
 import todo2Img from '@/public/todo-2.png'
 import portfolioImg from '@/public/potfolio.png'
@@ -82,12 +83,12 @@ export const projectsData = [
   //   url: 'https://shah-jawad-islam-portfolio.vercel.app/',
   // },
   {
-    title: 'To-do',
+    title: 'Website Dashboard',
     description:
-      "A simple and lightweight to-do list application. Add and delete tasks with ease. Your data is saved using local storage for convenience. It's a hassle-free way to manage your tasks and get things done.",
-    tags: ['React', 'Javascript'],
-    imageUrl: todo2Img,
-    url: 'https://to-do-alpha-jet.vercel.app/',
+      'A responsive dashboard example page, created using Next.js and Tailwind CSS. Highly customizable, featuring a variety of elements like buttons, cards, dropdowns, and interactive charts.',
+    tags: ['Next.js', 'Typescript', 'Tailwind CSS', 'Shadcn/ui', 'CanvasJS'],
+    imageUrl: dashboardImg,
+    url: 'https://bluetrade-dashboard.vercel.app/',
   },
   {
     title: 'YouTube Clone',
@@ -98,12 +99,12 @@ export const projectsData = [
     url: 'https://youtube-clone-theta-three.vercel.app/',
   },
   {
-    title: 'GhuraGhuri(Frontend)',
+    title: 'To-do',
     description:
-      'A travel companion app featuring user authentication, Google Maps integration, and interactive features. Users can add custom places and markers with notes for sharing and interaction. Additionally, the app allows users to post reviews for visited places.',
+      "A simple and lightweight to-do list application. Add and delete tasks with ease. Your data is saved using local storage for convenience. It's a hassle-free way to manage your tasks and get things done.",
     tags: ['React', 'Javascript'],
-    imageUrl: ghuraghuriImg,
-    url: 'https://spiffy-dolphin-b52710.netlify.app/',
+    imageUrl: todo2Img,
+    url: 'https://to-do-alpha-jet.vercel.app/',
   },
   {
     title: 'Color Picker',
@@ -112,6 +113,14 @@ export const projectsData = [
     tags: ['React', 'Javascript'],
     imageUrl: colorpickerImg,
     url: 'https://color-picker-opal-eight.vercel.app/',
+  },
+  {
+    title: 'GhuraGhuri(Frontend)',
+    description:
+      'A travel companion app featuring user authentication, Google Maps integration, and interactive features. Users can add custom places and markers with notes for sharing and interaction. Additionally, the app allows users to post reviews for visited places.',
+    tags: ['React', 'Javascript'],
+    imageUrl: ghuraghuriImg,
+    url: 'https://spiffy-dolphin-b52710.netlify.app/',
   },
 ] as const
 
